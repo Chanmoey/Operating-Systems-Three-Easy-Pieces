@@ -42,7 +42,7 @@ rule C_EXECUTABLE_LINKER__learn_os_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = E:\JetBrains\Toolbox\apps\CLion\ch-0\213.7172.20\bin\cmake\win\bin\cmake.exe --regenerate-during-build -SD:\CProject\learn-os -BD:\CProject\learn-os\cmake-build-debug
+  command = E:\JetBrains\Toolbox\apps\CLion\ch-0\213.7172.20\bin\cmake\win\bin\cmake.exe --regenerate-during-build -SD:\CS-NoteBook\操作系统\Operating-Systems-Three-Easy-Pieces\learn-os -BD:\CS-NoteBook\操作系统\Operating-Systems-Three-Easy-Pieces\learn-os\cmake-build-debug
   description = Re-running CMake...
   generator = 1
 

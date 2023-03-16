@@ -1,4 +1,4 @@
-# Install script for directory: D:/CProject/learn-os
+# Install script for directory: D:/CS-NoteBook/操作系统/Operating-Systems-Three-Easy-Pieces/learn-os
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/CProject/learn-os/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/CS-NoteBook/操作系统/Operating-Systems-Three-Easy-Pieces/learn-os/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

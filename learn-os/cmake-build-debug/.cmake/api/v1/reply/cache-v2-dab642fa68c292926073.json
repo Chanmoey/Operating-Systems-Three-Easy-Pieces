@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "d:/CProject/learn-os/cmake-build-debug"
+			"value" : "d:/CS-NoteBook/操作系统/Operating-Systems-Three-Easy-Pieces/learn-os/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -479,7 +479,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/CProject/learn-os"
+			"value" : "D:/CS-NoteBook/操作系统/Operating-Systems-Three-Easy-Pieces/learn-os"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1095,7 +1095,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/CProject/learn-os/cmake-build-debug"
+			"value" : "D:/CS-NoteBook/操作系统/Operating-Systems-Three-Easy-Pieces/learn-os/cmake-build-debug"
 		},
 		{
 			"name" : "learn_os_IS_TOP_LEVEL",
@@ -1119,7 +1119,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/CProject/learn-os"
+			"value" : "D:/CS-NoteBook/操作系统/Operating-Systems-Three-Easy-Pieces/learn-os"
 		}
 	],
 	"kind" : "cache",

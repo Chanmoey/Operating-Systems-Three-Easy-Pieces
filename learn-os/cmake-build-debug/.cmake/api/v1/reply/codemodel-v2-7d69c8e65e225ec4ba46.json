@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "learn_os::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-learn_os-Debug-d19954024ffb8e0096a7.json",
+					"jsonFile" : "target-learn_os-Debug-7ecc9fb6c3ce7ca8441c.json",
 					"name" : "learn_os",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/CProject/learn-os/cmake-build-debug",
-		"source" : "D:/CProject/learn-os"
+		"build" : "D:/CS-NoteBook/操作系统/Operating-Systems-Three-Easy-Pieces/learn-os/cmake-build-debug",
+		"source" : "D:/CS-NoteBook/操作系统/Operating-Systems-Three-Easy-Pieces/learn-os"
 	},
 	"version" : 
 	{

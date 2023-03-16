@@ -39,13 +39,13 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = D$:/CProject/learn-os/cmake-build-debug/
+cmake_ninja_workdir = D$:/CS-NoteBook/操作系统/Operating-Systems-Three-Easy-Pieces/learn-os/cmake-build-debug/
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\CProject\learn-os\cmake-build-debug && E:\JetBrains\Toolbox\apps\CLion\ch-0\213.7172.20\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D D:\CS-NoteBook\操作系统\Operating-Systems-Three-Easy-Pieces\learn-os\cmake-build-debug && E:\JetBrains\Toolbox\apps\CLion\ch-0\213.7172.20\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -60,86 +60,116 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 
 build cmake_object_order_depends_target_learn_os: phony || CMakeFiles/learn_os.dir
 
-build CMakeFiles/learn_os.dir/main.c.obj: C_COMPILER__learn_os_Debug D$:/CProject/learn-os/main.c || cmake_object_order_depends_target_learn_os
+build CMakeFiles/learn_os.dir/main.c.obj: C_COMPILER__learn_os_Debug D$:/CS-NoteBook/操作系统/Operating-Systems-Three-Easy-Pieces/learn-os/main.c || cmake_object_order_depends_target_learn_os
   DEP_FILE = CMakeFiles\learn_os.dir\main.c.obj.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles\learn_os.dir
   OBJECT_FILE_DIR = CMakeFiles\learn_os.dir
 
-build CMakeFiles/learn_os.dir/5/p1.c.obj: C_COMPILER__learn_os_Debug D$:/CProject/learn-os/5/p1.c || cmake_object_order_depends_target_learn_os
+build CMakeFiles/learn_os.dir/5/p1.c.obj: C_COMPILER__learn_os_Debug D$:/CS-NoteBook/操作系统/Operating-Systems-Three-Easy-Pieces/learn-os/5/p1.c || cmake_object_order_depends_target_learn_os
   DEP_FILE = CMakeFiles\learn_os.dir\5\p1.c.obj.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles\learn_os.dir
   OBJECT_FILE_DIR = CMakeFiles\learn_os.dir\5
 
-build CMakeFiles/learn_os.dir/5/p2.c.obj: C_COMPILER__learn_os_Debug D$:/CProject/learn-os/5/p2.c || cmake_object_order_depends_target_learn_os
+build CMakeFiles/learn_os.dir/5/p2.c.obj: C_COMPILER__learn_os_Debug D$:/CS-NoteBook/操作系统/Operating-Systems-Three-Easy-Pieces/learn-os/5/p2.c || cmake_object_order_depends_target_learn_os
   DEP_FILE = CMakeFiles\learn_os.dir\5\p2.c.obj.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles\learn_os.dir
   OBJECT_FILE_DIR = CMakeFiles\learn_os.dir\5
 
-build CMakeFiles/learn_os.dir/5/p3.c.obj: C_COMPILER__learn_os_Debug D$:/CProject/learn-os/5/p3.c || cmake_object_order_depends_target_learn_os
+build CMakeFiles/learn_os.dir/5/p3.c.obj: C_COMPILER__learn_os_Debug D$:/CS-NoteBook/操作系统/Operating-Systems-Three-Easy-Pieces/learn-os/5/p3.c || cmake_object_order_depends_target_learn_os
   DEP_FILE = CMakeFiles\learn_os.dir\5\p3.c.obj.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles\learn_os.dir
   OBJECT_FILE_DIR = CMakeFiles\learn_os.dir\5
 
-build CMakeFiles/learn_os.dir/5/p4.c.obj: C_COMPILER__learn_os_Debug D$:/CProject/learn-os/5/p4.c || cmake_object_order_depends_target_learn_os
+build CMakeFiles/learn_os.dir/5/p4.c.obj: C_COMPILER__learn_os_Debug D$:/CS-NoteBook/操作系统/Operating-Systems-Three-Easy-Pieces/learn-os/5/p4.c || cmake_object_order_depends_target_learn_os
   DEP_FILE = CMakeFiles\learn_os.dir\5\p4.c.obj.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles\learn_os.dir
   OBJECT_FILE_DIR = CMakeFiles\learn_os.dir\5
 
-build CMakeFiles/learn_os.dir/5/homework/h1.c.obj: C_COMPILER__learn_os_Debug D$:/CProject/learn-os/5/homework/h1.c || cmake_object_order_depends_target_learn_os
+build CMakeFiles/learn_os.dir/5/homework/h1.c.obj: C_COMPILER__learn_os_Debug D$:/CS-NoteBook/操作系统/Operating-Systems-Three-Easy-Pieces/learn-os/5/homework/h1.c || cmake_object_order_depends_target_learn_os
   DEP_FILE = CMakeFiles\learn_os.dir\5\homework\h1.c.obj.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles\learn_os.dir
   OBJECT_FILE_DIR = CMakeFiles\learn_os.dir\5\homework
 
-build CMakeFiles/learn_os.dir/5/homework/h2.c.obj: C_COMPILER__learn_os_Debug D$:/CProject/learn-os/5/homework/h2.c || cmake_object_order_depends_target_learn_os
+build CMakeFiles/learn_os.dir/5/homework/h2.c.obj: C_COMPILER__learn_os_Debug D$:/CS-NoteBook/操作系统/Operating-Systems-Three-Easy-Pieces/learn-os/5/homework/h2.c || cmake_object_order_depends_target_learn_os
   DEP_FILE = CMakeFiles\learn_os.dir\5\homework\h2.c.obj.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles\learn_os.dir
   OBJECT_FILE_DIR = CMakeFiles\learn_os.dir\5\homework
 
-build CMakeFiles/learn_os.dir/5/homework/h3.c.obj: C_COMPILER__learn_os_Debug D$:/CProject/learn-os/5/homework/h3.c || cmake_object_order_depends_target_learn_os
+build CMakeFiles/learn_os.dir/5/homework/h3.c.obj: C_COMPILER__learn_os_Debug D$:/CS-NoteBook/操作系统/Operating-Systems-Three-Easy-Pieces/learn-os/5/homework/h3.c || cmake_object_order_depends_target_learn_os
   DEP_FILE = CMakeFiles\learn_os.dir\5\homework\h3.c.obj.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles\learn_os.dir
   OBJECT_FILE_DIR = CMakeFiles\learn_os.dir\5\homework
 
-build CMakeFiles/learn_os.dir/5/homework/h4-execl.c.obj: C_COMPILER__learn_os_Debug D$:/CProject/learn-os/5/homework/h4-execl.c || cmake_object_order_depends_target_learn_os
+build CMakeFiles/learn_os.dir/5/homework/h4-execl.c.obj: C_COMPILER__learn_os_Debug D$:/CS-NoteBook/操作系统/Operating-Systems-Three-Easy-Pieces/learn-os/5/homework/h4-execl.c || cmake_object_order_depends_target_learn_os
   DEP_FILE = CMakeFiles\learn_os.dir\5\homework\h4-execl.c.obj.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles\learn_os.dir
   OBJECT_FILE_DIR = CMakeFiles\learn_os.dir\5\homework
 
-build CMakeFiles/learn_os.dir/5/homework/h4-execle.c.obj: C_COMPILER__learn_os_Debug D$:/CProject/learn-os/5/homework/h4-execle.c || cmake_object_order_depends_target_learn_os
+build CMakeFiles/learn_os.dir/5/homework/h4-execle.c.obj: C_COMPILER__learn_os_Debug D$:/CS-NoteBook/操作系统/Operating-Systems-Three-Easy-Pieces/learn-os/5/homework/h4-execle.c || cmake_object_order_depends_target_learn_os
   DEP_FILE = CMakeFiles\learn_os.dir\5\homework\h4-execle.c.obj.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles\learn_os.dir
   OBJECT_FILE_DIR = CMakeFiles\learn_os.dir\5\homework
 
-build CMakeFiles/learn_os.dir/5/homework/h4-execlp.c.obj: C_COMPILER__learn_os_Debug D$:/CProject/learn-os/5/homework/h4-execlp.c || cmake_object_order_depends_target_learn_os
+build CMakeFiles/learn_os.dir/5/homework/h4-execlp.c.obj: C_COMPILER__learn_os_Debug D$:/CS-NoteBook/操作系统/Operating-Systems-Three-Easy-Pieces/learn-os/5/homework/h4-execlp.c || cmake_object_order_depends_target_learn_os
   DEP_FILE = CMakeFiles\learn_os.dir\5\homework\h4-execlp.c.obj.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles\learn_os.dir
   OBJECT_FILE_DIR = CMakeFiles\learn_os.dir\5\homework
 
-build CMakeFiles/learn_os.dir/5/homework/h4-execv.c.obj: C_COMPILER__learn_os_Debug D$:/CProject/learn-os/5/homework/h4-execv.c || cmake_object_order_depends_target_learn_os
+build CMakeFiles/learn_os.dir/5/homework/h4-execv.c.obj: C_COMPILER__learn_os_Debug D$:/CS-NoteBook/操作系统/Operating-Systems-Three-Easy-Pieces/learn-os/5/homework/h4-execv.c || cmake_object_order_depends_target_learn_os
   DEP_FILE = CMakeFiles\learn_os.dir\5\homework\h4-execv.c.obj.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles\learn_os.dir
   OBJECT_FILE_DIR = CMakeFiles\learn_os.dir\5\homework
 
-build CMakeFiles/learn_os.dir/5/homework/h4-execvp.c.obj: C_COMPILER__learn_os_Debug D$:/CProject/learn-os/5/homework/h4-execvp.c || cmake_object_order_depends_target_learn_os
+build CMakeFiles/learn_os.dir/5/homework/h4-execvp.c.obj: C_COMPILER__learn_os_Debug D$:/CS-NoteBook/操作系统/Operating-Systems-Three-Easy-Pieces/learn-os/5/homework/h4-execvp.c || cmake_object_order_depends_target_learn_os
   DEP_FILE = CMakeFiles\learn_os.dir\5\homework\h4-execvp.c.obj.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles\learn_os.dir
   OBJECT_FILE_DIR = CMakeFiles\learn_os.dir\5\homework
 
-build CMakeFiles/learn_os.dir/5/homework/h4-execv-P.c.obj: C_COMPILER__learn_os_Debug D$:/CProject/learn-os/5/homework/h4-execv-P.c || cmake_object_order_depends_target_learn_os
-  DEP_FILE = CMakeFiles\learn_os.dir\5\homework\h4-execv-P.c.obj.d
+build CMakeFiles/learn_os.dir/5/homework/h4-execvpe.c.obj: C_COMPILER__learn_os_Debug D$:/CS-NoteBook/操作系统/Operating-Systems-Three-Easy-Pieces/learn-os/5/homework/h4-execvpe.c || cmake_object_order_depends_target_learn_os
+  DEP_FILE = CMakeFiles\learn_os.dir\5\homework\h4-execvpe.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\learn_os.dir
+  OBJECT_FILE_DIR = CMakeFiles\learn_os.dir\5\homework
+
+build CMakeFiles/learn_os.dir/5/homework/h5-1.c.obj: C_COMPILER__learn_os_Debug D$:/CS-NoteBook/操作系统/Operating-Systems-Three-Easy-Pieces/learn-os/5/homework/h5-1.c || cmake_object_order_depends_target_learn_os
+  DEP_FILE = CMakeFiles\learn_os.dir\5\homework\h5-1.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\learn_os.dir
+  OBJECT_FILE_DIR = CMakeFiles\learn_os.dir\5\homework
+
+build CMakeFiles/learn_os.dir/5/homework/h5-2.c.obj: C_COMPILER__learn_os_Debug D$:/CS-NoteBook/操作系统/Operating-Systems-Three-Easy-Pieces/learn-os/5/homework/h5-2.c || cmake_object_order_depends_target_learn_os
+  DEP_FILE = CMakeFiles\learn_os.dir\5\homework\h5-2.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\learn_os.dir
+  OBJECT_FILE_DIR = CMakeFiles\learn_os.dir\5\homework
+
+build CMakeFiles/learn_os.dir/5/homework/h5-3.c.obj: C_COMPILER__learn_os_Debug D$:/CS-NoteBook/操作系统/Operating-Systems-Three-Easy-Pieces/learn-os/5/homework/h5-3.c || cmake_object_order_depends_target_learn_os
+  DEP_FILE = CMakeFiles\learn_os.dir\5\homework\h5-3.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\learn_os.dir
+  OBJECT_FILE_DIR = CMakeFiles\learn_os.dir\5\homework
+
+build CMakeFiles/learn_os.dir/5/homework/h6.c.obj: C_COMPILER__learn_os_Debug D$:/CS-NoteBook/操作系统/Operating-Systems-Three-Easy-Pieces/learn-os/5/homework/h6.c || cmake_object_order_depends_target_learn_os
+  DEP_FILE = CMakeFiles\learn_os.dir\5\homework\h6.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\learn_os.dir
+  OBJECT_FILE_DIR = CMakeFiles\learn_os.dir\5\homework
+
+build CMakeFiles/learn_os.dir/5/homework/h7.c.obj: C_COMPILER__learn_os_Debug D$:/CS-NoteBook/操作系统/Operating-Systems-Three-Easy-Pieces/learn-os/5/homework/h7.c || cmake_object_order_depends_target_learn_os
+  DEP_FILE = CMakeFiles\learn_os.dir\5\homework\h7.c.obj.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles\learn_os.dir
   OBJECT_FILE_DIR = CMakeFiles\learn_os.dir\5\homework
@@ -152,7 +182,7 @@ build CMakeFiles/learn_os.dir/5/homework/h4-execv-P.c.obj: C_COMPILER__learn_os_
 #############################################
 # Link the executable learn_os.exe
 
-build learn_os.exe: C_EXECUTABLE_LINKER__learn_os_Debug CMakeFiles/learn_os.dir/main.c.obj CMakeFiles/learn_os.dir/5/p1.c.obj CMakeFiles/learn_os.dir/5/p2.c.obj CMakeFiles/learn_os.dir/5/p3.c.obj CMakeFiles/learn_os.dir/5/p4.c.obj CMakeFiles/learn_os.dir/5/homework/h1.c.obj CMakeFiles/learn_os.dir/5/homework/h2.c.obj CMakeFiles/learn_os.dir/5/homework/h3.c.obj CMakeFiles/learn_os.dir/5/homework/h4-execl.c.obj CMakeFiles/learn_os.dir/5/homework/h4-execle.c.obj CMakeFiles/learn_os.dir/5/homework/h4-execlp.c.obj CMakeFiles/learn_os.dir/5/homework/h4-execv.c.obj CMakeFiles/learn_os.dir/5/homework/h4-execvp.c.obj CMakeFiles/learn_os.dir/5/homework/h4-execv-P.c.obj
+build learn_os.exe: C_EXECUTABLE_LINKER__learn_os_Debug CMakeFiles/learn_os.dir/main.c.obj CMakeFiles/learn_os.dir/5/p1.c.obj CMakeFiles/learn_os.dir/5/p2.c.obj CMakeFiles/learn_os.dir/5/p3.c.obj CMakeFiles/learn_os.dir/5/p4.c.obj CMakeFiles/learn_os.dir/5/homework/h1.c.obj CMakeFiles/learn_os.dir/5/homework/h2.c.obj CMakeFiles/learn_os.dir/5/homework/h3.c.obj CMakeFiles/learn_os.dir/5/homework/h4-execl.c.obj CMakeFiles/learn_os.dir/5/homework/h4-execle.c.obj CMakeFiles/learn_os.dir/5/homework/h4-execlp.c.obj CMakeFiles/learn_os.dir/5/homework/h4-execv.c.obj CMakeFiles/learn_os.dir/5/homework/h4-execvp.c.obj CMakeFiles/learn_os.dir/5/homework/h4-execvpe.c.obj CMakeFiles/learn_os.dir/5/homework/h5-1.c.obj CMakeFiles/learn_os.dir/5/homework/h5-2.c.obj CMakeFiles/learn_os.dir/5/homework/h5-3.c.obj CMakeFiles/learn_os.dir/5/homework/h6.c.obj CMakeFiles/learn_os.dir/5/homework/h7.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\learn_os.dir
@@ -167,7 +197,7 @@ build learn_os.exe: C_EXECUTABLE_LINKER__learn_os_Debug CMakeFiles/learn_os.dir/
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\CProject\learn-os\cmake-build-debug && E:\JetBrains\Toolbox\apps\CLion\ch-0\213.7172.20\bin\cmake\win\bin\cmake.exe --regenerate-during-build -SD:\CProject\learn-os -BD:\CProject\learn-os\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D D:\CS-NoteBook\操作系统\Operating-Systems-Three-Easy-Pieces\learn-os\cmake-build-debug && E:\JetBrains\Toolbox\apps\CLion\ch-0\213.7172.20\bin\cmake\win\bin\cmake.exe --regenerate-during-build -SD:\CS-NoteBook\操作系统\Operating-Systems-Three-Easy-Pieces\learn-os -BD:\CS-NoteBook\操作系统\Operating-Systems-Three-Easy-Pieces\learn-os\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -185,7 +215,7 @@ build learn_os: phony learn_os.exe
 # =============================================================================
 
 #############################################
-# Folder: D:/CProject/learn-os/cmake-build-debug
+# Folder: D:/CS-NoteBook/操作系统/Operating-Systems-Three-Easy-Pieces/learn-os/cmake-build-debug
 
 build all: phony learn_os.exe
 

@@ -105,8 +105,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "D:/CProject/learn-os/cmake-build-debug",
-		"source" : "D:/CProject/learn-os"
+		"build" : "D:/CS-NoteBook/操作系统/Operating-Systems-Three-Easy-Pieces/learn-os/cmake-build-debug",
+		"source" : "D:/CS-NoteBook/操作系统/Operating-Systems-Three-Easy-Pieces/learn-os"
 	},
 	"version" : 
 	{
