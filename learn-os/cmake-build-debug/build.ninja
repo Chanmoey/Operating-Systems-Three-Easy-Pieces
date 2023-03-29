@@ -174,6 +174,12 @@ build CMakeFiles/learn_os.dir/5/homework/h7.c.obj: C_COMPILER__learn_os_Debug D$
   OBJECT_DIR = CMakeFiles\learn_os.dir
   OBJECT_FILE_DIR = CMakeFiles\learn_os.dir\5\homework
 
+build CMakeFiles/learn_os.dir/5/homework/h8.c.obj: C_COMPILER__learn_os_Debug D$:/CS-NoteBook/²Ù×÷ÏµÍ³/Operating-Systems-Three-Easy-Pieces/learn-os/5/homework/h8.c || cmake_object_order_depends_target_learn_os
+  DEP_FILE = CMakeFiles\learn_os.dir\5\homework\h8.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\learn_os.dir
+  OBJECT_FILE_DIR = CMakeFiles\learn_os.dir\5\homework
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target learn_os
@@ -182,7 +188,7 @@ build CMakeFiles/learn_os.dir/5/homework/h7.c.obj: C_COMPILER__learn_os_Debug D$
 #############################################
 # Link the executable learn_os.exe
 
-build learn_os.exe: C_EXECUTABLE_LINKER__learn_os_Debug CMakeFiles/learn_os.dir/main.c.obj CMakeFiles/learn_os.dir/5/p1.c.obj CMakeFiles/learn_os.dir/5/p2.c.obj CMakeFiles/learn_os.dir/5/p3.c.obj CMakeFiles/learn_os.dir/5/p4.c.obj CMakeFiles/learn_os.dir/5/homework/h1.c.obj CMakeFiles/learn_os.dir/5/homework/h2.c.obj CMakeFiles/learn_os.dir/5/homework/h3.c.obj CMakeFiles/learn_os.dir/5/homework/h4-execl.c.obj CMakeFiles/learn_os.dir/5/homework/h4-execle.c.obj CMakeFiles/learn_os.dir/5/homework/h4-execlp.c.obj CMakeFiles/learn_os.dir/5/homework/h4-execv.c.obj CMakeFiles/learn_os.dir/5/homework/h4-execvp.c.obj CMakeFiles/learn_os.dir/5/homework/h4-execvpe.c.obj CMakeFiles/learn_os.dir/5/homework/h5-1.c.obj CMakeFiles/learn_os.dir/5/homework/h5-2.c.obj CMakeFiles/learn_os.dir/5/homework/h5-3.c.obj CMakeFiles/learn_os.dir/5/homework/h6.c.obj CMakeFiles/learn_os.dir/5/homework/h7.c.obj
+build learn_os.exe: C_EXECUTABLE_LINKER__learn_os_Debug CMakeFiles/learn_os.dir/main.c.obj CMakeFiles/learn_os.dir/5/p1.c.obj CMakeFiles/learn_os.dir/5/p2.c.obj CMakeFiles/learn_os.dir/5/p3.c.obj CMakeFiles/learn_os.dir/5/p4.c.obj CMakeFiles/learn_os.dir/5/homework/h1.c.obj CMakeFiles/learn_os.dir/5/homework/h2.c.obj CMakeFiles/learn_os.dir/5/homework/h3.c.obj CMakeFiles/learn_os.dir/5/homework/h4-execl.c.obj CMakeFiles/learn_os.dir/5/homework/h4-execle.c.obj CMakeFiles/learn_os.dir/5/homework/h4-execlp.c.obj CMakeFiles/learn_os.dir/5/homework/h4-execv.c.obj CMakeFiles/learn_os.dir/5/homework/h4-execvp.c.obj CMakeFiles/learn_os.dir/5/homework/h4-execvpe.c.obj CMakeFiles/learn_os.dir/5/homework/h5-1.c.obj CMakeFiles/learn_os.dir/5/homework/h5-2.c.obj CMakeFiles/learn_os.dir/5/homework/h5-3.c.obj CMakeFiles/learn_os.dir/5/homework/h6.c.obj CMakeFiles/learn_os.dir/5/homework/h7.c.obj CMakeFiles/learn_os.dir/5/homework/h8.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\learn_os.dir
